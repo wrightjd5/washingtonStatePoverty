@@ -1,6 +1,6 @@
 # Washington Poverty and Discount Stores Map
 
-An interactive map showcasing poverty data for Washington counties from 2021 along with the locations of discount and charity stores.
+An interactive map showcasing poverty data for children in Washington counties from 2021 along with the locations of discount and charity stores.
 
 ## Table of Contents
 - [About](#about)
@@ -11,7 +11,7 @@ An interactive map showcasing poverty data for Washington counties from 2021 alo
 
 ## About
 
-This interactive map visualizes the number of people in poverty per county in Washington, overlaying the distribution of discount and charity stores. The map provides a comprehensive view of poverty statistics and store locations to aid in understanding the socio-economic landscape.
+This interactive map visualizes the number of children ages 0-17 in poverty per county in Washington, overlaying the distribution of discount and charity stores. The map provides a comprehensive view of poverty statistics and store locations to aid in understanding the socio-economic landscape.
 
 ## How to Use
 
