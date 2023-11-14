@@ -1,6 +1,6 @@
 # Washington Poverty and Discount Stores Map
 
-An interactive map showcasing poverty data for Washington counties along with the locations of discount and charity stores.
+An interactive map showcasing poverty data for Washington counties from 2021 along with the locations of discount and charity stores.
 
 ## Table of Contents
 - [About](#about)
@@ -15,10 +15,6 @@ An interactive map showcasing poverty data for Washington counties along with th
 
 This interactive map visualizes the number of people in poverty per county in Washington, overlaying the distribution of discount and charity stores. The map provides a comprehensive view of poverty statistics and store locations to aid in understanding the socio-economic landscape.
 
-## Map Preview
-
-Include a screenshot or GIF showcasing your map. You can also provide a link to an online demo if available.
-
 ## How to Use
 
 1. **Hover over a County:** Move your cursor over a county to view the number of people in poverty.
@@ -27,14 +23,14 @@ Include a screenshot or GIF showcasing your map. You can also provide a link to 
 
 3. **Discount and Charity Stores:** Icons on the map represent the locations of different types of stores. Click on the icons to view store names.
 
-## Data Converstion Process
+## Data Conversion Process
 
-Shapefile representing counties in Washington State was found on IGISMap and then converted to geoJson using geojson.com. Data representing the number of people 0-17 in poverty per county in Washington was found from the U.S. Department of Agriculture - Economic Research Service and was joined the the Washington counties geojson file using geojson.com. The point data representing the number of discount and charity stores was found as a shapefile on IGISMap and was then converted to geojson format using geojson.com
+A shapefile representing counties in Washington State was found on [IGISMap](https://www.igismap.com/download-washington-state-gis-maps-boundary-counties-rail-highway/) and then converted to GeoJSON using [geojson.com](http://geojson.com). Data representing the number of people aged 0-17 experiencing poverty per county in Washington was found from the [U.S. Department of Agriculture - Economic Research Service](https://www.ers.usda.gov/data-products/county-level-data-sets/county-level-data-sets-download-data/) and was joined with the Washington counties GeoJSON file using [geojson.com](http://geojson.com). The point data representing the number of discount and charity stores was found as a shapefile on [IGISMap](https://www.igismap.com/download-washington-state-gis-maps-boundary-counties-rail-highway/) and was then converted to GeoJSON format using [geojson.com](http://geojson.com).
 
 ## Data Sources
 
-- **Poverty Data:** [U.S. Department of Agriculture]
-- **Store Locations:** [i GisMaps]
+- **Poverty Data:** [U.S. Department of Agriculture](https://www.ers.usda.gov/data-products/county-level-data-sets/county-level-data-sets-download-data/)
+- **Store Locations:** [IGISMap](https://www.igismap.com/download-washington-state-gis-maps-boundary-counties-rail-highway/)
 
 Include any necessary attribution or credits for the data sources.
 
@@ -50,4 +46,4 @@ If you'd like to contribute to this project, please follow these steps:
 
 ## Contact
 
-For any inquiries or feedback, please contact [Jason Wright] at [wrightjd5@appstate.edu].
+For any inquiries or feedback, please contact [Jason Wright](mailto:wrightjd5@appstate.edu).

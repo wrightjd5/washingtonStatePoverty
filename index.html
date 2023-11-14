@@ -50,6 +50,12 @@
             border-radius: 5px;
         }
 
+        .legend h4 {
+            font-size: 16px;
+            margin: 0 0 5px;
+            color: #777777;
+        }
+
         .legend i {
             width: 20px;
             height: 20px;
@@ -239,6 +245,8 @@
             var grades = [0, 2000, 4000, 6000, 8000, 10000];
             var colors = chroma.scale(['#FFEDA0', '#800026']).colors(grades.length - 1);
 
+            div.innerHTML = '<h4>Ages 0-17 in Poverty</h4>'; // Title for the legend
+
             for (var i = 0; i < grades.length - 1; i++) {
                 labels.push(
                     '<div><i style="background:' + colors[i] + '"></i> ' +
@@ -247,7 +255,7 @@
                 );
             }
 
-            div.innerHTML = labels.join('');
+            div.innerHTML += labels.join('');
             return div;
         };
 
