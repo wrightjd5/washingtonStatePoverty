@@ -29,7 +29,7 @@ A shapefile representing counties in Washington State was found on [IGISMap](htt
 
 - **Poverty Data:** [U.S. Department of Agriculture](https://www.ers.usda.gov/data-products/county-level-data-sets/county-level-data-sets-download-data/)
 - **County boundaries:** [IGISMap](https://www.igismap.com/download-washington-state-gis-maps-boundary-counties-rail-highway/)
--**Discount Store Data:** [IGISMap](https://map.igismap.com/gis-data/129836/united%20states-washington/discount_stores_and_charity_point)
+- **Discount Store Data:** [IGISMap](https://map.igismap.com/gis-data/129836/united%20states-washington/discount_stores_and_charity_point)
 Include any necessary attribution or credits for the data sources.
 
 ## Contributing
