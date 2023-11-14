@@ -23,11 +23,11 @@ This interactive map visualizes the number of children ages 0-17 in poverty per 
 
 ## Data Conversion Process
 
-A shapefile representing counties in Washington State was found on [IGISMap](https://www.igismap.com/download-washington-state-gis-maps-boundary-counties-rail-highway/) and then converted to GeoJSON using [geojson.com](http://geojson.com). Data representing the number of people aged 0-17 experiencing poverty per county in Washington was found from the [U.S. Department of Agriculture - Economic Research Service](https://www.ers.usda.gov/data-products/county-level-data-sets/county-level-data-sets-download-data/) and was joined with the Washington counties GeoJSON file using [geojson.com](http://geojson.com). The point data representing the number of discount and charity stores was found as a shapefile on [IGISMap](https://www.igismap.com/download-washington-state-gis-maps-boundary-counties-rail-highway/) and was then converted to GeoJSON format using [geojson.com](http://geojson.com).
+A shapefile representing counties in Washington State was found on [IGISMap](https://www.igismap.com/download-washington-state-gis-maps-boundary-counties-rail-highway/) and then converted to GeoJSON using [geojson.com](http://geojson.com). Data representing the number of people aged 0-17 experiencing poverty per county in Washington was found from the [U.S. Department of Agriculture - Economic Research Service](https://www.ers.usda.gov/data-products/county-level-data-sets/county-level-data-sets-download-data/) and was joined with the Washington counties GeoJSON file using [geojson.com](http://geojson.com). The point data representing the number of discount and charity stores was found as a shapefile on [IGISMap](https://map.igismap.com/gis-data/129836/united%20states-washington/discount_stores_and_charity_point) and was then converted to GeoJSON format using [geojson.com](http://geojson.com).
 
 ## Data Sources
 
-- **Poverty Data:** [U.S. Department of Agriculture](https://www.ers.usda.gov/data-products/county-level-data-sets/county-level-data-sets-download-data/)
+- **Poverty Data:** [U.S. Department of Agriculture - Economic Resesarch Service](https://www.ers.usda.gov/data-products/county-level-data-sets/county-level-data-sets-download-data/)
 - **County boundaries:** [IGISMap](https://www.igismap.com/download-washington-state-gis-maps-boundary-counties-rail-highway/)
 - **Discount Store Data:** [IGISMap](https://map.igismap.com/gis-data/129836/united%20states-washington/discount_stores_and_charity_point)
 
