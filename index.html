@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Washington Poverty and Discount Stores Map</title>
+    <title>Washington Poverty and Discount Stores</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.0/dist/leaflet.css" />
@@ -111,9 +111,9 @@
 
 <body>
     <!-- Add the title and about box -->
-    <div id="map-title">Washington Poverty and Discount Stores Map</div>
+    <div id="map-title">Washington Poverty and Discount Stores</div>
     <div id="about-box">
-        <h2>About This Map</h2>
+        <h2>About</h2>
         <p>This interactive map displays poverty data for Washington counties along with the locations of discount stores. Hover over a county to see the number of people in poverty, click to zoom, and explore the distribution of discount stores.</p>
     </div>
 
@@ -130,7 +130,7 @@
 
         // Add OpenStreetMap tile layer to map element
         L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> | Poverty Estimate data &copy; <a href="https://www.ers.usda.gov/">U.S. Deparment of Agriculture</a> | Jason Wright'
         }).addTo(mymap);
 
         var countiesPoverty = null;
