@@ -27,10 +27,14 @@ Include a screenshot or GIF showcasing your map. You can also provide a link to 
 
 3. **Discount and Charity Stores:** Icons on the map represent the locations of different types of stores. Click on the icons to view store names.
 
+## Data Converstion Process
+
+Shapefile representing counties in Washington State was found on IGISMap and then converted to geoJson using geojson.com. Data representing the number of people 0-17 in poverty per county in Washington was found from the U.S. Department of Agriculture - Economic Research Service and was joined the the Washington counties geojson file using geojson.com. The point data representing the number of discount and charity stores was found as a shapefile on IGISMap and was then converted to geojson format using geojson.com
+
 ## Data Sources
 
-- **Poverty Data:** [Source Name/Link]
-- **Store Locations:** [Source Name/Link]
+- **Poverty Data:** [U.S. Department of Agriculture]
+- **Store Locations:** [i GisMaps]
 
 Include any necessary attribution or credits for the data sources.
 
@@ -44,10 +48,6 @@ If you'd like to contribute to this project, please follow these steps:
 4. Push to the branch (`git push origin feature/new-feature`)
 5. Open a pull request
 
-## License
-
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
-
 ## Contact
 
-For any inquiries or feedback, please contact [Your Name] at [your@email.com].
+For any inquiries or feedback, please contact [Jason Wright] at [wrightjd5@appstate.edu].
