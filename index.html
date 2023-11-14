@@ -32,16 +32,16 @@
         }
 
         .info h4 {
-            font-size: 18px; /* Adjusted font size */
+            font-size: 18px;
             margin: 0 0 5px;
-            color: #333; /* Adjusted font color */
+            color: #333;
         }
 
         .legend {
             z-index: 1000;
             position: absolute;
             right: 20px;
-            bottom: 40px; /* Adjusted bottom position to avoid covering the map */
+            bottom: 40px;
             padding: 6px 8px;
             font: 14px Arial, Helvetica, sans-serif;
             background: white;
@@ -53,7 +53,7 @@
         .legend h4 {
             font-size: 16px;
             margin: 0 0 5px;
-            color: #333; /* Adjusted font color */
+            color: #333;
         }
 
         .legend i {
@@ -71,17 +71,17 @@
         }
 
         .legend div i {
-            margin-right: 5px; /* Adjust margin for better alignment */
+            margin-right: 5px;
         }
 
         /* New styles for the title and about box */
         #map-title {
             position: absolute;
-            top: 2%; /* Adjust this value for the desired positioning */
+            top: 2%;
             left: 50%;
             transform: translateX(-50%);
-            font-size: 2em;
-            font-family: "Arial", sans-serif; /* Adjusted font family */
+            font-size: 1.5em; /* Adjusted font size */
+            font-family: "Arial", sans-serif;
             letter-spacing: 0.04em;
             padding: 10px 15px;
             background: rgba(256, 256, 256);
@@ -92,7 +92,7 @@
 
         #about-box {
             position: absolute;
-            top: 2%; /* Adjusted top position */
+            top: 2%;
             left: 10px;
             width: 280px;
             margin: 20px auto;
@@ -104,10 +104,10 @@
         }
 
         #about-box h2 {
-            font-family: "Arial", sans-serif; /* Adjusted font family */
-            font-size: 1.5em; /* Adjusted font size */
+            font-family: "Arial", sans-serif;
+            font-size: 1.5em;
             letter-spacing: 0.04em;
-            margin-bottom: 10px; /* Adjusted margin for better spacing */
+            margin-bottom: 10px;
         }
     </style>
     <script src="https://unpkg.com/leaflet@1.7.0/dist/leaflet.js"></script>
@@ -121,7 +121,7 @@
     <div id="map-title">Washington Poverty and Discount Stores</div>
     <div id="about-box">
         <h2>About</h2>
-        <p>This interactive map displays poverty data for Washington counties along with the locations of discount stores. Hover over a county to see the number of people in poverty, click to zoom, and explore the distribution of discount stores.</p>
+        <p>This interactive map displays the number of children 0-17 years old experiencing poverty for Washington counties along with the locations of discount and charity stores. Hover over a county to see the number of children in poverty, click to zoom, and explore the distribution of discount stores.</p>
     </div>
 
     <div id="map"></div>
@@ -193,7 +193,7 @@
         }
 
         function getColor(d) {
-            var colors = chroma.scale(['#eff3ff', '#08519c']).colors(5); // Adjusted color scheme
+            var colors = chroma.scale(['#eff3ff', '#08519c']).colors(5);
             return d > 8000 ? colors[4] :
                 d > 6000 ? colors[3] :
                     d > 4000 ? colors[2] :
@@ -244,9 +244,9 @@
             var div = L.DomUtil.create('div', 'legend');
             var labels = [];
             var grades = [0, 2000, 4000, 6000, 8000, 10000];
-            var colors = chroma.scale(['#eff3ff', '#08519c']).colors(grades.length - 1); // Adjusted color scheme
+            var colors = chroma.scale(['#eff3ff', '#08519c']).colors(grades.length - 1);
 
-            div.innerHTML = '<h4>Ages 0-17 in Poverty</h4>'; // Title for the legend
+            div.innerHTML = '<h4>Poverty</h4>';
 
             for (var i = 0; i < grades.length - 1; i++) {
                 labels.push(
@@ -265,5 +265,3 @@
 </body>
 
 </html>
-
-
